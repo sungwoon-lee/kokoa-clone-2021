@@ -3,6 +3,7 @@
   justify-content: space-between;
   padding: var(--horizontal-space);
   align-items: center;
+  margin-bottom: 15px;
 }
 
 .screen-header__title {
@@ -16,4 +17,14 @@
 
 .friends-screen {
   padding: 0px var(--horizontal-space);
+}
+
+.screen-header span:last-child span {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: 50px;
 }
